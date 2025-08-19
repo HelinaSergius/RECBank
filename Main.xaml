@@ -78,6 +78,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,118.4" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Developer1&quot;]" />
+    <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,123.2" sap2010:WorkflowViewState.IdRef="Delay_1" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Developer1&quot;]" />
   </Sequence>
 </Activity>
